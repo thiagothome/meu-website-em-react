@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+	box-sizing: border-box;
+}
+
+.header ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header ul li a{
+  color: #D9D9D9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.header ul li a:focus{
+  border-bottom: 3px solid #000;
+  border-image: linear-gradient(90deg, #365FF3, #DE41EC);
+  border-image-slice: 1;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
